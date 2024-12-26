@@ -1,2 +1,5 @@
 # Fogolineagedevicetree
-Device Tree for motorola fogo
+- Manufacturer: motorola
+- Platform: holi
+- Codename: fogo
+- Brand: motorola
