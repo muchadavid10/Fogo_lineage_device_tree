@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fogo.mk
+    $(LOCAL_DIR)/fogo.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_fogo-user \
