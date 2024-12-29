@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from fogo device
-$(call inherit-product, $(LOCAL_DIR)/device.mk)
+$(call inherit-product, device/motorola/fogo/device.mk)
 
 PRODUCT_NAME := lineage_fogo
 PRODUCT_DEVICE := fogo
