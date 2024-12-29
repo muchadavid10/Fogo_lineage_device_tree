@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fogo.mk
+    $(LOCAL_DIR)/lineage_fogo.mk
+    
+COMMON_LUNCH_CHOICES += lineage_fogo-user
+COMMON_LUNCH_CHOICES += lineage_fogo-userdebug
+COMMON_LUNCH_CHOICES += lineage_fogo-eng
 
-COMMON_LUNCH_CHOICES := \
-    lineage_fogo-user \
-    lineage_fogo-userdebug \
-    lineage_fogo-eng
