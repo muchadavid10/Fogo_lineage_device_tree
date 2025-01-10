@@ -14,11 +14,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from fogo device
 $(call inherit-product, device/motorola/fogo/device.mk)
 
-PRODUCT_NAME := lineage_fogo
 PRODUCT_DEVICE := fogo
+PRODUCT_NAME := lineage_fogo
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := Moto G 5G (2024)
-PRODUCT_MANUFACTURER := Motorola
+PRODUCT_MODEL := moto g 5G - 2024
+PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
